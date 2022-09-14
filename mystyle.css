@@ -1,0 +1,32 @@
+ { 
+    outline: 1px dotted red;
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 100;
+    left: 0;
+    width: 300px;
+    border-right: solid;
+}
+.side-bar ul {
+    list-style: none;
+    outline: 1px dotted red;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  margin-bottom: 110px;
+}
+.recipes img {
+  width: 375px;
+  height: calc(100% / 1.5);
+  box-shadow: 2px -2px 2px #000;
+}
+.recipes-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 0 15px;
+}
