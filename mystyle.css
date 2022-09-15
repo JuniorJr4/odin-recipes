@@ -1,32 +1,66 @@
- { 
-    outline: 1px dotted red;
-}
-#navbar {
-    position: fixed;
-    min-width: 290px;
-    top: 100;
-    left: 0;
-    width: 300px;
-    border-right: solid;
-}
-.side-bar ul {
-    list-style: none;
-    outline: 1px dotted red;
-}
-#main-doc {
-  position: absolute;
-  margin-left: 310px;
-  margin-bottom: 110px;
-}
-.recipes img {
-  width: 375px;
-  height: calc(100% / 1.5);
-  box-shadow: 2px -2px 2px #000;
-}
-.recipes-grid {
+ * { 
+  background-color: rgb(170, 170, 170);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .pops {
   display: flex;
-  flex-direction: row;
+ }
+
+ .sidebar {
+  width: 200px;
+ }
+
+ .sidebar a {
+  display: block;
+  padding: 12px;
+  color: black;
+  background-color: darkgrey;
+  text-decoration: none;
+  border: 1px solid black;
+  border-bottom: none;
+ }
+
+ .sidebar a:hover {
+  background-color: rgb(185, 72, 72);
+ }
+ 
+ img {
+  width: 320px;
+  height: 226px;
+ }
+
+ #main-doc {
+  margin-left: 20px;
+  margin-top: -25px;
+ }
+
+ h1 {
+  text-align: center;
+  background-color: rgb(170, 170, 170);
+  
+ }
+
+ .navgrid {
+  box-sizing: border-box;
+  float: left;
+  width: auto;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  align-items: center;
+  border: 2px solid black;
+ }
+
+ .moms {
+  display: flex;
   justify-content: center;
-  width: 100%;
-  padding: 0 15px;
-}
+  text-align: center;
+ }
+
+ .navgrid > p {
+  font-weight: bold;
+ }
+
+
+ 
